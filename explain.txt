@@ -1,0 +1,38 @@
+1. Linear Regression
+Concept: Linear regression models the relationship between a dependent variable (target) and one or more independent variables (features) by fitting a linear equation to the observed data. It assumes a linear relationship.
+Key Metrics:
+R² Score (Coefficient of Determination): Indicates how well the model fits the data (higher is better).
+Mean Absolute Error (MAE): Measures the average of the absolute errors between the predicted and actual values.
+Mean Squared Error (MSE): Similar to MAE but penalizes larger errors more significantly due to squaring.
+
+2. Logistic Regression
+Concept: Logistic regression is used for binary classification (0 or 1). It applies the logistic/sigmoid function to predict the probability of a class label being 1. The output is a probability, which is mapped to a class based on a threshold (usually 0.5).
+Key Metrics:
+Accuracy: Proportion of correct predictions.
+Precision, Recall, F1-Score: These metrics help evaluate model performance, especially in imbalanced datasets.
+Confusion Matrix: Provides a summary of true positives, false positives, true negatives, and false negatives.
+
+3. Decision Tree
+Concept: Decision trees are supervised models that split data based on feature values, recursively partitioning the data into smaller and more homogeneous sets. They are used for both classification and regression tasks.
+Key Metrics:
+Gini Impurity or Entropy: Measures the "impurity" of a node in classification tasks.
+Accuracy: Measures how often the model correctly predicts the class label.
+
+4. Random Forest
+Concept: Random Forest is an ensemble learning method that creates multiple decision trees and merges them to improve performance. Each tree is trained on a random subset of the data, and the final prediction is the majority vote or average of all the trees.
+Key Metrics:
+Out-of-Bag (OOB) Error: An internal validation set used to estimate the model's performance.
+Feature Importance: Helps identify which features contribute most to the model's decisions.
+
+5. Naive Bayes
+Concept: Naive Bayes is a probabilistic classifier based on Bayes' Theorem, assuming independence between features (which is why it's "naive"). It is commonly used for text classification tasks (e.g., spam filtering).
+Key Metrics:
+Accuracy: Measures the overall correctness of the predictions.
+Confusion Matrix: Visualizes the number of true/false positives and negatives.
+
+6. K-Means Clustering
+Concept: K-Means is an unsupervised learning algorithm that groups data points into K clusters based on similarity. The algorithm assigns each point to the nearest cluster centroid and iteratively updates the centroids.
+Key Metrics:
+Inertia (Sum of Squared Distances): Measures the compactness of the clusters. Lower inertia means better clustering.
+Silhouette Score: Measures how similar a point is to its own cluster compared to other clusters.
+
